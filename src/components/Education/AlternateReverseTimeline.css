@@ -1,0 +1,68 @@
+.custom-timeline {
+    margin-top: 30px;
+    
+  }
+  .custom-timeline-dot {
+  width: 95px;
+  height: 90px;
+  border: 2px solid #6a1b9a;
+  border-radius: 50%;
+  background-color: transparent; /* Ensure the background is transparent */
+  overflow: hidden; /* Ensure the image does not overflow the dot */
+  display: flex; /* Use flexbox to center the image */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.custom-timeline-dot img {
+  max-width: 100%; /* Ensure the image fills the entire dot without overflowing */
+  max-height: 100%; /* Ensure the image fills the entire dot without overflowing */
+  object-fit: cover; /* Maintain the aspect ratio of the image and cover the entire space */
+}
+
+  
+  .custom-timeline-connector {
+    background-color: #6a1b9a;
+  }
+  
+  .custom-timeline-title {
+    color: #854CE6;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .custom-timeline-date {
+    color: #888;
+  }
+  
+  .custom-timeline-grade {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .custom-timeline-desc {
+    color: #FFFFFF;
+    text-align: justify;
+    
+  }
+  
+  .custom-timeline-degree {
+    color: #2196f3;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 768px) {
+    .custom-timeline-dot {
+      width: 30px;
+      height: 30px;
+      box-shadow: 0 0 0 3px #6a1b9a;
+    }
+  
+    .custom-timeline-title {
+      font-size: 16px;
+    }
+  
+    .custom-timeline-degree {
+      font-size: 14px;
+    }
+
+}

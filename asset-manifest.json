@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/archu-portfolio/static/css/main.c0c7f358.css",
+    "main.js": "/archu-portfolio/static/js/main.310fc044.js",
+    "static/media/doodledart-gif.gif": "/archu-portfolio/static/media/doodledart-gif.487ac39d8c72b4f935f3.gif",
+    "static/media/nsk-gif.gif": "/archu-portfolio/static/media/nsk-gif.be6ea32eb6f256d65413.gif",
+    "static/media/HeroImage.jpg": "/archu-portfolio/static/media/HeroImage.b57022e16f96bb702cdc.jpg",
+    "static/media/intern-letter.jpg": "/archu-portfolio/static/media/intern-letter.a90b6febcc923e79780a.jpg",
+    "static/media/tuberculosis.png": "/archu-portfolio/static/media/tuberculosis.3738add3ea99a06d27af.png",
+    "static/media/Screenshot (36).png": "/archu-portfolio/static/media/Screenshot (36).1f3f121b0aba9bc882bb.png",
+    "static/media/Screenshot (40).png": "/archu-portfolio/static/media/Screenshot (40).6b2f05fcafe6d09cc4ef.png",
+    "static/media/kmhsslogo.png": "/archu-portfolio/static/media/kmhsslogo.b86da03b43980c5c022c.png",
+    "index.html": "/archu-portfolio/index.html",
+    "main.c0c7f358.css.map": "/archu-portfolio/static/css/main.c0c7f358.css.map",
+    "main.310fc044.js.map": "/archu-portfolio/static/js/main.310fc044.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0c7f358.css",
+    "static/js/main.310fc044.js"
+  ]
+}

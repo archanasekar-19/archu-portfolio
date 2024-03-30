@@ -1,5 +1,4 @@
 import intern from '../images/intern-letter.jpg';
-import nsk from '../images/Screenshot (35).png';
 import tub from '../images/tuberculosis.png';
 import fake from '../images/Screenshot (40).png';
 import swing from '../images/Screenshot (36).png';

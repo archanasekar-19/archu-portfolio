@@ -1,6 +1,5 @@
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
-import _default from '../../themes/default';
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
@@ -204,55 +203,3 @@ export  const MobileLink = styled.a`
     border-bottom: 2px solid ${({ theme }) => theme.primary};
   }
 `;
-export const CircleBehindLink = styled.div`
-    position: relative;
-    a {
-        color: #FFF;
-        text-decoration: none;
-        font: 20px Raleway;
-        margin: 0px 10px;
-        padding: 10px 10px;
-        z-index: 0;
-        cursor: pointer;
-        &:before,
-        &:after {
-            position: absolute;
-            top: 22px;
-            left: 50%;
-            width: 50px;
-            height: 50px;
-            border: 4px solid #0277bd;
-            transform: translateX(-50%) translateY(-50%) scale(0.8);
-            border-radius: 50%;
-            background: transparent;
-            content: "";
-            opacity: 0;
-            transition: all 0.3s;
-            z-index: -1;
-        }
-        &:after {
-            border-width: 2px;
-            transition: all 0.4s;
-        }
-        &:hover:before {
-            opacity: 1;
-            transform: translateX(-50%) translateY(-50%) scale(1);
-        }
-        &:hover:after {
-            opacity: 1;
-            transform: translateX(-50%) translateY(-50%) scale(1.3);
-        }
-    }
-`;
-export const MobileNavLogo = styled(LinkR)`
-  width: 80%;
-  padding: 0 6px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  text-decoration: none;
-  @media (max-width: 640px) {
-    padding: 0 0px;
-  }
-`
-;

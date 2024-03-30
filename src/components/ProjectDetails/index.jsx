@@ -1,4 +1,4 @@
-import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
+import { CloseRounded } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import React from 'react'
 import styled from 'styled-components'
@@ -75,13 +75,6 @@ const Desc = styled.div`
     }
 `;
 
-// const Image = styled.img`
-//     width: 100%;
-//     object-fit: cover;
-//     border-radius: 12px;
-//     margin-top: 10px;
-//     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
-// `;
 const Image = styled.img`
     width: ${({ isGif }) => (isGif ? '280px' : '100%')};
     height: ${({ isGif }) => (isGif ? '450px' : 'auto')};
@@ -98,7 +91,6 @@ const Image = styled.img`
         margin-top: 10px;
     `}
 
-    /* Media query for smaller screens */
     @media (max-width: 768px) {
         width: 100%;
         border-radius: 12px;
@@ -107,24 +99,12 @@ const Image = styled.img`
         margin-bottom:5px;
         }
 
-    /* Additional styles for nsk-gif */
     ${({ src }) => src && src.includes('nsk-gif') && `
         width: 100%;
         border-radius: 12px;
         margin-left:5px;
         margin-top: 10px;
     `}
-`;
-
-const Label = styled.div`
-    font-size: 20px;
-    font-weight: 600;
-    color: ${({ theme }) => theme.text_primary};
-    margin: 8px 6px;
-    @media only screen and (max-width: 600px) {
-        font-size: 16px;
-        margin: 8px 6px;
-    }
 `;
 
 const Tags = styled.div`
@@ -171,15 +151,14 @@ const Button = styled.a`
         background-color: ${theme.background2};
         color: ${theme.text2};
         &:hover {
-            background-color: ${({ theme }) => theme.bg + 99}; /* Change hover background to primary color */
+            background-color: ${({ theme }) => theme.bg + 99}; 
         }
     `}
     cursor: pointer;
     text-decoration: none;
     transition: all 0.5s ease;
     &:hover {
-        background-color: ${({ theme }) => theme.primary + 99}; /* Change hover background to light background color */
-    }
+        background-color: ${({ theme }) => theme.primary + 99}; 
     @media only screen and (max-width: 600px) {
         font-size: 12px;
     }

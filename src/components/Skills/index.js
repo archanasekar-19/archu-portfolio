@@ -33,7 +33,7 @@ font-weight: 600;
 margin-top: 20px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
-      margin-top: 0px;
+      margin-top: 1px;
       font-size: 22px;
   }
 `;
